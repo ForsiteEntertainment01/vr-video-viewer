@@ -9,6 +9,17 @@
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky>
+      <a-assets>
+    <video id="VRVideo" autoplay loop="true" src="https://drive.google.com/uc?export=download&id=1XCEBBwNK9Qh8aOzmYU2p2e9O9-CHFLXq" type="video/mp4"> </video>
+  </a-assets>
+
+  <!-- Using the asset management system. -->
+  <a-videosphere src="#VRVideo"></a-videosphere>
+
+  <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+  <a-videosphere src="https://drive.google.com/uc?export=download&id=1XCEBBwNK9Qh8aOzmYU2p2e9O9-CHFLXq" type="video/mp4"></a-videosphere>
     </a-scene>
   </body>
+
 </html>
+
